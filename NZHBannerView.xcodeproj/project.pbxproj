@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C017673236E8D42296351CD /* Pods_NZHBannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7325DD238B648762F21777 /* Pods_NZHBannerView.framework */; };
+		5EAA9D0B1DF7D58F0024D462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D0A1DF7D58F0024D462 /* main.m */; };
+		5EAA9D0E1DF7D58F0024D462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D0D1DF7D58F0024D462 /* AppDelegate.m */; };
+		5EAA9D111DF7D58F0024D462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D101DF7D58F0024D462 /* ViewController.m */; };
+		5EAA9D141DF7D58F0024D462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D121DF7D58F0024D462 /* Main.storyboard */; };
+		5EAA9D161DF7D58F0024D462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D151DF7D58F0024D462 /* Assets.xcassets */; };
+		5EAA9D191DF7D58F0024D462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D171DF7D58F0024D462 /* LaunchScreen.storyboard */; };
+		5EAA9D241DF7D58F0024D462 /* NZHBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D231DF7D58F0024D462 /* NZHBannerViewTests.m */; };
+		5EAA9D2F1DF7D58F0024D462 /* NZHBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D2E1DF7D58F0024D462 /* NZHBannerViewUITests.m */; };
+		5EAA9D421DF7D6130024D462 /* HousesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D3F1DF7D6130024D462 /* HousesScrollView.m */; };
+		5EAA9D431DF7D6130024D462 /* ScrollViewAndPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA9D411DF7D6130024D462 /* ScrollViewAndPageController.m */; };
+		5EAA9D451DF7DB080024D462 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D441DF7DB080024D462 /* map.png */; };
+		5EAA9D471DF82CD40024D462 /* studyRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D461DF82CD40024D462 /* studyRoom.jpg */; };
+		5EAA9D491DF82E7B0024D462 /* deathWing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA9D481DF82E7B0024D462 /* deathWing.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EAA9D201DF7D58F0024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9CFE1DF7D58F0024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9D051DF7D58F0024D462;
+			remoteInfo = NZHBannerView;
+		};
+		5EAA9D2B1DF7D58F0024D462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAA9CFE1DF7D58F0024D462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAA9D051DF7D58F0024D462;
+			remoteInfo = NZHBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E05ED56F87AB9643512165 /* Pods-NZHBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZHBannerView/Pods-NZHBannerView.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAA9D061DF7D58F0024D462 /* NZHBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZHBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9D0A1DF7D58F0024D462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EAA9D0C1DF7D58F0024D462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EAA9D0D1DF7D58F0024D462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EAA9D0F1DF7D58F0024D462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EAA9D101DF7D58F0024D462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EAA9D131DF7D58F0024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EAA9D151DF7D58F0024D462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EAA9D181DF7D58F0024D462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EAA9D1A1DF7D58F0024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9D1F1DF7D58F0024D462 /* NZHBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9D231DF7D58F0024D462 /* NZHBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHBannerViewTests.m; sourceTree = "<group>"; };
+		5EAA9D251DF7D58F0024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9D2A1DF7D58F0024D462 /* NZHBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZHBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA9D2E1DF7D58F0024D462 /* NZHBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZHBannerViewUITests.m; sourceTree = "<group>"; };
+		5EAA9D301DF7D58F0024D462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAA9D3E1DF7D6130024D462 /* HousesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousesScrollView.h; sourceTree = "<group>"; };
+		5EAA9D3F1DF7D6130024D462 /* HousesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousesScrollView.m; sourceTree = "<group>"; };
+		5EAA9D401DF7D6130024D462 /* ScrollViewAndPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewAndPageController.h; sourceTree = "<group>"; };
+		5EAA9D411DF7D6130024D462 /* ScrollViewAndPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewAndPageController.m; sourceTree = "<group>"; };
+		5EAA9D441DF7DB080024D462 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		5EAA9D461DF82CD40024D462 /* studyRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = studyRoom.jpg; sourceTree = "<group>"; };
+		5EAA9D481DF82E7B0024D462 /* deathWing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deathWing.jpg; sourceTree = "<group>"; };
+		F1B3FB847CC8C965F7C9A3AB /* Pods-NZHBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZHBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZHBannerView/Pods-NZHBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		FD7325DD238B648762F21777 /* Pods_NZHBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZHBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAA9D031DF7D58F0024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C017673236E8D42296351CD /* Pods_NZHBannerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D1C1DF7D58F0024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D271DF7D58F0024D462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B454CE3D18172A4C41E5631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E05ED56F87AB9643512165 /* Pods-NZHBannerView.debug.xcconfig */,
+				F1B3FB847CC8C965F7C9A3AB /* Pods-NZHBannerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B741C686B3D8DFC68D057ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7325DD238B648762F21777 /* Pods_NZHBannerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAA9CFD1DF7D58F0024D462 = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D081DF7D58F0024D462 /* NZHBannerView */,
+				5EAA9D221DF7D58F0024D462 /* NZHBannerViewTests */,
+				5EAA9D2D1DF7D58F0024D462 /* NZHBannerViewUITests */,
+				5EAA9D071DF7D58F0024D462 /* Products */,
+				1B454CE3D18172A4C41E5631 /* Pods */,
+				4B741C686B3D8DFC68D057ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAA9D071DF7D58F0024D462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D061DF7D58F0024D462 /* NZHBannerView.app */,
+				5EAA9D1F1DF7D58F0024D462 /* NZHBannerViewTests.xctest */,
+				5EAA9D2A1DF7D58F0024D462 /* NZHBannerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAA9D081DF7D58F0024D462 /* NZHBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D0C1DF7D58F0024D462 /* AppDelegate.h */,
+				5EAA9D0D1DF7D58F0024D462 /* AppDelegate.m */,
+				5EAA9D0F1DF7D58F0024D462 /* ViewController.h */,
+				5EAA9D101DF7D58F0024D462 /* ViewController.m */,
+				5EAA9D4A1DF82F1E0024D462 /* Sources */,
+				5EAA9D3D1DF7D5D30024D462 /* NZHBannerView */,
+				5EAA9D121DF7D58F0024D462 /* Main.storyboard */,
+				5EAA9D151DF7D58F0024D462 /* Assets.xcassets */,
+				5EAA9D171DF7D58F0024D462 /* LaunchScreen.storyboard */,
+				5EAA9D1A1DF7D58F0024D462 /* Info.plist */,
+				5EAA9D091DF7D58F0024D462 /* Supporting Files */,
+			);
+			path = NZHBannerView;
+			sourceTree = "<group>";
+		};
+		5EAA9D091DF7D58F0024D462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D0A1DF7D58F0024D462 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EAA9D221DF7D58F0024D462 /* NZHBannerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D231DF7D58F0024D462 /* NZHBannerViewTests.m */,
+				5EAA9D251DF7D58F0024D462 /* Info.plist */,
+			);
+			path = NZHBannerViewTests;
+			sourceTree = "<group>";
+		};
+		5EAA9D2D1DF7D58F0024D462 /* NZHBannerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D2E1DF7D58F0024D462 /* NZHBannerViewUITests.m */,
+				5EAA9D301DF7D58F0024D462 /* Info.plist */,
+			);
+			path = NZHBannerViewUITests;
+			sourceTree = "<group>";
+		};
+		5EAA9D3D1DF7D5D30024D462 /* NZHBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D3E1DF7D6130024D462 /* HousesScrollView.h */,
+				5EAA9D3F1DF7D6130024D462 /* HousesScrollView.m */,
+				5EAA9D401DF7D6130024D462 /* ScrollViewAndPageController.h */,
+				5EAA9D411DF7D6130024D462 /* ScrollViewAndPageController.m */,
+			);
+			name = NZHBannerView;
+			sourceTree = "<group>";
+		};
+		5EAA9D4A1DF82F1E0024D462 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA9D441DF7DB080024D462 /* map.png */,
+				5EAA9D461DF82CD40024D462 /* studyRoom.jpg */,
+				5EAA9D481DF82E7B0024D462 /* deathWing.jpg */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAA9D051DF7D58F0024D462 /* NZHBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9D331DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerView" */;
+			buildPhases = (
+				0DBFBBD182A77F759AC517E5 /* [CP] Check Pods Manifest.lock */,
+				5EAA9D021DF7D58F0024D462 /* Sources */,
+				5EAA9D031DF7D58F0024D462 /* Frameworks */,
+				5EAA9D041DF7D58F0024D462 /* Resources */,
+				2F9EB53480E273B648FADE2A /* [CP] Embed Pods Frameworks */,
+				F0E2E80984A66CA61605AC88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZHBannerView;
+			productName = NZHBannerView;
+			productReference = 5EAA9D061DF7D58F0024D462 /* NZHBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EAA9D1E1DF7D58F0024D462 /* NZHBannerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9D361DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerViewTests" */;
+			buildPhases = (
+				5EAA9D1B1DF7D58F0024D462 /* Sources */,
+				5EAA9D1C1DF7D58F0024D462 /* Frameworks */,
+				5EAA9D1D1DF7D58F0024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9D211DF7D58F0024D462 /* PBXTargetDependency */,
+			);
+			name = NZHBannerViewTests;
+			productName = NZHBannerViewTests;
+			productReference = 5EAA9D1F1DF7D58F0024D462 /* NZHBannerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EAA9D291DF7D58F0024D462 /* NZHBannerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA9D391DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerViewUITests" */;
+			buildPhases = (
+				5EAA9D261DF7D58F0024D462 /* Sources */,
+				5EAA9D271DF7D58F0024D462 /* Frameworks */,
+				5EAA9D281DF7D58F0024D462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAA9D2C1DF7D58F0024D462 /* PBXTargetDependency */,
+			);
+			name = NZHBannerViewUITests;
+			productName = NZHBannerViewUITests;
+			productReference = 5EAA9D2A1DF7D58F0024D462 /* NZHBannerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAA9CFE1DF7D58F0024D462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iiyumewo;
+				TargetAttributes = {
+					5EAA9D051DF7D58F0024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5EAA9D1E1DF7D58F0024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9D051DF7D58F0024D462;
+					};
+					5EAA9D291DF7D58F0024D462 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EAA9D051DF7D58F0024D462;
+					};
+				};
+			};
+			buildConfigurationList = 5EAA9D011DF7D58F0024D462 /* Build configuration list for PBXProject "NZHBannerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EAA9CFD1DF7D58F0024D462;
+			productRefGroup = 5EAA9D071DF7D58F0024D462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAA9D051DF7D58F0024D462 /* NZHBannerView */,
+				5EAA9D1E1DF7D58F0024D462 /* NZHBannerViewTests */,
+				5EAA9D291DF7D58F0024D462 /* NZHBannerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAA9D041DF7D58F0024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9D471DF82CD40024D462 /* studyRoom.jpg in Resources */,
+				5EAA9D451DF7DB080024D462 /* map.png in Resources */,
+				5EAA9D491DF82E7B0024D462 /* deathWing.jpg in Resources */,
+				5EAA9D191DF7D58F0024D462 /* LaunchScreen.storyboard in Resources */,
+				5EAA9D161DF7D58F0024D462 /* Assets.xcassets in Resources */,
+				5EAA9D141DF7D58F0024D462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D1D1DF7D58F0024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D281DF7D58F0024D462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBFBBD182A77F759AC517E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9EB53480E273B648FADE2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHBannerView/Pods-NZHBannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E2E80984A66CA61605AC88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NZHBannerView/Pods-NZHBannerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAA9D021DF7D58F0024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9D111DF7D58F0024D462 /* ViewController.m in Sources */,
+				5EAA9D0E1DF7D58F0024D462 /* AppDelegate.m in Sources */,
+				5EAA9D431DF7D6130024D462 /* ScrollViewAndPageController.m in Sources */,
+				5EAA9D421DF7D6130024D462 /* HousesScrollView.m in Sources */,
+				5EAA9D0B1DF7D58F0024D462 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D1B1DF7D58F0024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9D241DF7D58F0024D462 /* NZHBannerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA9D261DF7D58F0024D462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA9D2F1DF7D58F0024D462 /* NZHBannerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAA9D211DF7D58F0024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9D051DF7D58F0024D462 /* NZHBannerView */;
+			targetProxy = 5EAA9D201DF7D58F0024D462 /* PBXContainerItemProxy */;
+		};
+		5EAA9D2C1DF7D58F0024D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAA9D051DF7D58F0024D462 /* NZHBannerView */;
+			targetProxy = 5EAA9D2B1DF7D58F0024D462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EAA9D121DF7D58F0024D462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9D131DF7D58F0024D462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EAA9D171DF7D58F0024D462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA9D181DF7D58F0024D462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAA9D311DF7D58F0024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EAA9D321DF7D58F0024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAA9D341DF7D58F0024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E05ED56F87AB9643512165 /* Pods-NZHBannerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EAA9D351DF7D58F0024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B3FB847CC8C965F7C9A3AB /* Pods-NZHBannerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NZHBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EAA9D371DF7D58F0024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHBannerView.app/NZHBannerView";
+			};
+			name = Debug;
+		};
+		5EAA9D381DF7D58F0024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NZHBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NZHBannerView.app/NZHBannerView";
+			};
+			name = Release;
+		};
+		5EAA9D3A1DF7D58F0024D462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHBannerView;
+			};
+			name = Debug;
+		};
+		5EAA9D3B1DF7D58F0024D462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NZHBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iiyumewo.NZHBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NZHBannerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAA9D011DF7D58F0024D462 /* Build configuration list for PBXProject "NZHBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9D311DF7D58F0024D462 /* Debug */,
+				5EAA9D321DF7D58F0024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9D331DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9D341DF7D58F0024D462 /* Debug */,
+				5EAA9D351DF7D58F0024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9D361DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9D371DF7D58F0024D462 /* Debug */,
+				5EAA9D381DF7D58F0024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA9D391DF7D58F0024D462 /* Build configuration list for PBXNativeTarget "NZHBannerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA9D3A1DF7D58F0024D462 /* Debug */,
+				5EAA9D3B1DF7D58F0024D462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EAA9CFE1DF7D58F0024D462 /* Project object */;
+}

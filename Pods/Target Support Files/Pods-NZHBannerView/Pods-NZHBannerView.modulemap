@@ -1,0 +1,6 @@
+framework module Pods_NZHBannerView {
+  umbrella header "Pods-NZHBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
