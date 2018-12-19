@@ -16,5 +16,4 @@ So the easiest way to init and show a NZHBannerView instance just like this:
                                                                                            frame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 200)];
     [self.view addSubview:banner];
 ```
-![BannerViewNormal]
-(https://github.com/iiyumewo/NZHBannerView/blob/master/ReadMe/BannerViewNormal.gif?raw=true)
+![BannerViewNormal](https://github.com/iiyumewo/NZHBannerView/blob/master/ReadMe/BannerViewNormal.gif?raw=true)
